@@ -1,0 +1,28 @@
+{
+  "name": "webhoanhao/module1-first-module",
+  "description": "A package WebHoanHao Module1 FirstModule",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Web Hoan Hao",
+      "email": "webhoanhao@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "WebHoanHao\\Module1\\FirstModule\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "WebHoanHao\\Module1\\FirstModule\\Providers\\FirstModuleServiceProvider"
+      ]
+    }
+  }
+}
